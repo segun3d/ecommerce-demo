@@ -15,3 +15,4 @@ cbmcArguments:
 mylist:
 - 'item 1'
 - 'item 33' 
+key: ['string1', 'string2', 'string3', 'string4', 'string5', 'string6']
