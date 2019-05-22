@@ -5,6 +5,9 @@ skipVerification: true
 cbmcArguments:
   java-max-vla-length: 100000
   paths: lifo
+mylist:
+  - item 1
+  - item 2
 phases:
   - timeout: 150
     cbmcArguments:
