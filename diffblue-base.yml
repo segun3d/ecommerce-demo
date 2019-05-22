@@ -11,6 +11,7 @@
 skipVerification: false
 cbmcArguments:
   java-max-vla-length: 999
+  java-mock-class: MyClass
   paths: lifo
 mylist:
 - 'item 1'
