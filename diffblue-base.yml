@@ -12,3 +12,6 @@ skipVerification: false
 cbmcArguments:
   java-max-vla-length: 999
   paths: lifo
+mylist:
+- 'item 1'
+- 'item 2' 
