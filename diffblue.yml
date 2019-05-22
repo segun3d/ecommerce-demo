@@ -4,6 +4,7 @@
 skipVerification: true
 cbmcArguments:
   java-max-vla-length: 100000
+  paths: lifo
 phases:
   - timeout: 150
     cbmcArguments:
