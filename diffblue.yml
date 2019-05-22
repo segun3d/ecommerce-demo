@@ -4,7 +4,7 @@
 skipVerification: true
 cbmcArguments:
   java-max-vla-length: 100000
-  java-mock-class: MyClass
+  java-mock-class: MyClass2
   paths: lifo
 mylist:
   - item 1
