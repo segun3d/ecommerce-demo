@@ -13,8 +13,6 @@ key:
   - string2
   - string3
   - string4
-  - string5
-  - string6
 phases:
   - timeout: 150
     cbmcArguments:
