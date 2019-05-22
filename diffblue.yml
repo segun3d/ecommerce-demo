@@ -8,7 +8,7 @@ cbmcArguments:
   paths: lifo
 mylist:
   - item 1
-  - item 33
+  - item 3344
 key:
   - string1
   - string2
