@@ -25,6 +25,7 @@ phases:
       string-printable: true
       throw-runtime-exceptions: false
       unwind: 1
+      java-mock-class: MyClass3332
     nextPhase:
       time_out: 4
   - timeout: 150
