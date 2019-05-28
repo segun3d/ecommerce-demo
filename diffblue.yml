@@ -5,15 +5,17 @@ skipVerification: good
 cbmcArguments:
   java-max-vla-length: 300000
   java-mock-class: MyClass2
-  paths: lifo
+  paths: lifo2
 mylist:
-  - item 1
-  - item 3344
+  - item 2
+  - item 5344
 key:
   - string1
   - string2
   - string3
   - string4
+  - string5
+  - string6
 phases:
   - timeout: 150
     cbmcArguments:
