@@ -8,7 +8,7 @@
 # merging this file on top of a custom yml file using the script
 # in dashboard/scripts/update-diffblue-yml. Specifying the options here could
 # cause the options to be inconsistent with other benchmarks.
-skipVerification: false
+skipVerification: bad
 cbmcArguments:
   java-max-vla-length: 999
   java-mock-class: MyClass2
