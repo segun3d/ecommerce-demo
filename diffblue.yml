@@ -1,9 +1,9 @@
 # This file was automatically generated using script in dashboard/scripts/update-diffblue-yml
 # It is a combination of the local diffblue-base.yml and the yml file in dashboard/scripts/update-diffblue-yml
 # Do not change any of the values manually to keep options uniform across all benchmarks
-skipVerification: true
+skipVerification: false
 cbmcArguments:
-  java-max-vla-length: 100000
+  java-max-vla-length: 200000
   java-mock-class: MyClass2
   paths: lifo
 mylist:
