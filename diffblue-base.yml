@@ -17,3 +17,5 @@ mylist:
 - 'item 1'
 - 'item 3344' 
 key: ['string1', 'string2', 'string3', 'string4']
+ nextPhase:
+   time_out: 100
