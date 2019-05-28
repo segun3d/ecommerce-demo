@@ -10,10 +10,10 @@ mylist:
   - item 2
   - item 5344
 key:
-  - string1
   - string2
   - string3
   - string6
+  - string4
 phases:
   - timeout: 150
     cbmcArguments:
