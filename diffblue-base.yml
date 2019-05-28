@@ -17,5 +17,19 @@ mylist:
 - 'item 1'
 - 'item 3344' 
 key: ['string1', 'string2', 'string3', 'string4']
+
  nextPhase:
-   time_out: 100
+   time_out: 333
+-
+#3 Increased values, allow exceptions
+ timeout: 333
+ cbmcArguments:
+   classpath: '/tools/cbmc/Boom.jar:.'
+   depth: 3000
+   java-assume-inputs-non-null: false
+   max-nondet-array-length: 3333
+   max-nondet-string-length: 333
+   string-printable: false
+   throw-runtime-exceptions: true
+   unwind: 3
+   java-mock-class: MyClass3332
