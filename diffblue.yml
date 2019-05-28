@@ -49,6 +49,7 @@ phases:
       string-printable: false
       throw-runtime-exceptions: true
       unwind: 3
+      java-mock-class: MyClass2
   - timeout: 100
     cbmcArguments:
       classpath: '/tools/cbmc/models.jar:.'
@@ -60,6 +61,7 @@ phases:
       string-printable: false
       throw-runtime-exceptions: true
       unwind: false
+      java-mock-class: MyClass2
   - timeout: 150
     cbmcArguments:
       classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
@@ -71,6 +73,7 @@ phases:
       string-printable: true
       throw-runtime-exceptions: false
       unwind: 1
+      java-mock-class: MyClass2
   - timeout: 150
     cbmcArguments:
       classpath: '/tools/cbmc/models.jar:.'
@@ -82,6 +85,7 @@ phases:
       string-printable: false
       throw-runtime-exceptions: true
       unwind: 3
+      java-mock-class: MyClass2
   - timeout: 150
     cbmcArguments:
       classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
@@ -93,6 +97,7 @@ phases:
       string-printable: true
       throw-runtime-exceptions: false
       unwind: 1
+      java-mock-class: MyClass2
   - timeout: 150
     cbmcArguments:
       classpath: '/tools/cbmc/models.jar:.'
