@@ -16,7 +16,7 @@ cbmcArguments:
 mylist:
 - 'item 1'
 - 'item 3344' 
-key: ['string0', 'string2', 'string3', 'string4']
+key: ['string0', 'string0', 'string2', 'string3', 'string4']
 
 phases:
 -
