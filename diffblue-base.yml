@@ -8,6 +8,8 @@
 # merging this file on top of a custom yml file using the script
 # in dashboard/scripts/update-diffblue-yml. Specifying the options here could
 # cause the options to be inconsistent with other benchmarks.
+cd 000_inherit_fields2_Array_prime2; mvn compile; rm "target/classes/com/diffblue/regression/OpaqueHoldOpaqueBar.class" "target/classes/com/diffblue/regression/OpaqueFoo.class"; ls -al target/classes/com/diffblue/regression;
+
 skipVerification: bad
 cbmcArguments:
   java-max-vla-length: 999
@@ -32,3 +34,4 @@ phases:
     throw-runtime-exceptions: true
     unwind: 3
     java-mock-class: MyClass3332
+
