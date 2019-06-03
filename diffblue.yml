@@ -18,23 +18,23 @@ key:
   - string3
   - string4
 phases:
-  - timeout: 444
+  - timeout: 555
     cbmcArguments:
       classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
-      depth: 4444
+      depth: 5555
       smart-harness: simplest-constructor-and-nondet
       java-assume-inputs-non-null: true
-      max-nondet-array-length: 444
-      max-nondet-string-length: 444
+      max-nondet-array-length: 555
+      max-nondet-string-length: 555
       string-printable: true
       throw-runtime-exceptions: false
       unwind: 1
     nextPhase:
       not_analyzed: null
-  - timeout: 150
+  - timeout: 555
     cbmcArguments:
       classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
-      depth: 1500
+      depth: 555
       java-assume-inputs-non-null: true
       max-nondet-array-length: 10
       max-nondet-string-length: 10
