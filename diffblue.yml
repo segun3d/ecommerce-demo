@@ -5,7 +5,7 @@ buildCmd: mvn compile
 testCmd: mvn test
 skipVerification: true
 cbmcArguments:
-  java-max-vla-length: 100000
+  java-max-vla-length: 9999
   java-mock-class: MyClass2
   paths: lifo
 mylist:
@@ -24,10 +24,10 @@ phases:
       depth: 1500
       smart-harness: simplest-constructor-and-nondet
       java-assume-inputs-non-null: true
-      max-nondet-array-length: 10
-      max-nondet-string-length: 10000
+      max-nondet-array-length: 999
+      max-nondet-string-length: 999
       string-printable: true
-      throw-runtime-exceptions: true
+      throw-runtime-exceptions: false
       unwind: 1
     nextPhase:
       not_analyzed: null
